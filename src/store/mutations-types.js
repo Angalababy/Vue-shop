@@ -1,0 +1,10 @@
+export const RECEIVE_ADDRESS='receive_address'
+export const RECEIVE_SHOPS='receive_shops'
+export const RECEIVE_CATEGORYS='receive_categorys'
+export const RECEIVE_USER='receive_user'
+export const RESET_USER='reset_user'
+export const RECEIVE_GOODS='reset_goods'//接受商品数组
+export const RECEIVE_RATINGS='reset_ratings'//接收商家评价数组
+export const RECEIVE_INFO='reset_info'//接收商家信息
+export const INCREMENT_COUNT='increment_count'
+export const DECREMENT_COUNT='decrement_count'

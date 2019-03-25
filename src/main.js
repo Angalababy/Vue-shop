@@ -4,6 +4,21 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import Header from './components/Header/Header.vue'
+import store from './store'
+import { Button } from 'mint-ui';
+import CartControl from './components/CartControl/CartControl.vue'
+import Split from './components/Split/Split.vue'
+import Star from './components/Star/Star.vue'
+
+
+import './mock/mockServer'
+
+Vue.component(Button.name, Button);
+Vue.component('Header',Header)
+Vue.component('Star',Star)
+Vue.component('CartControl',CartControl)
+Vue.component('Split',Split)
 
 
 new Vue({
@@ -12,6 +27,6 @@ new Vue({
     App
   },
   template:'<App/>',
-
-  router
+  store,
+  router,
 })
